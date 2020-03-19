@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@100&display=swap');
+body {
+  font-family: 'Roboto';
+  background-color: rgb(240, 240, 240);
+  font-weight: 250;
+  font-size: 15;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Quicksand';
+  color: #364f6b;
+  text-align: center;
+}
+
+h2, h3, h4 {
+  font-family: 'Quicksand';
+  color: #11999e;
+  font-weight: 1600;
+  font-size: 18;
+  text-align: center;
+}
+
+i {
+  font-size: 26;
+  line-height: 2;
+}
+
+div {
+  background: white;
+  padding: 12px;
+  margin: 30px auto;
+  box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+  width: 300px;
+}
+
+.container {
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 12px;
+  margin: 30px auto;
+  box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+  width: 300px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-purple {
+  background: #364f6b;
+  color: white;
+  padding: 8px;
+  margin: 16px auto;
+  width: 160px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-purple:hover {
+  background: #1e2a38;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: #11999e;
+  margin: 8px 16px;
+}
+
+.social-icon:hover {
+  font-size: 32px;
+  color: #364f6b;
+  margin: 8px 16px;
+}
