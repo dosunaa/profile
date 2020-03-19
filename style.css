@@ -26,25 +26,41 @@ i {
   line-height: 2;
 }
 
-div {
-  background: white;
-  padding: 12px;
-  margin: 30px auto;
-  box-shadow: 0 5px 15px rgb(0,0,0,0.1);
-  width: 300px;
-}
 
 .container {
   margin: 30px auto;
 }
 
-.card {
-  background: white;
-  padding: 12px;
-  margin: 30px auto;
-  box-shadow: 0 5px 15px rgb(0,0,0,0.1);
-  width: 300px;
+@media (max-width: 1600px) {
+  .card {
+    background: white;
+    padding: 12px;
+    margin: 30px auto;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+    width: 720px;
+  }
 }
+
+@media (max-width: 720px) {
+  .card {
+    background: white;
+    padding: 12px;
+    margin: 30px auto;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    background: white;
+    padding: 12px;
+    margin: 30px auto;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.1);
+    width: 300px;
+  }
+}
+
 
 .img-circle {
   border-radius: 50%;
